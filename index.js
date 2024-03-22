@@ -1,9 +1,7 @@
 function guess() {
-    var guess = input.value;
-    guess = str.toLowerCase();
+    var guess = input.value.toLowerCase();
     input.value = "";
-    player = str.toLowerCase();
-    if (player == guess) {
+    if (player.toLowerCase() == guess) {
         document.getElementById("result").innerHTML = "Correct!\nThe player is " + player + ". Refresh to play again.";
     }
     else {
