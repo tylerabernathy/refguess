@@ -9,11 +9,12 @@ function guess() {
     }
 }
 
+var player = ""
 fetch("./data.json")
     .then(Response => Response.json())
     .then(data => {
         const players = Object.keys(data)
-        var player = players[Math.floor(Math.random() * players.length)]
+        player = players[Math.floor(Math.random() * players.length)]
         document.getElementById("chartDiv").innerHTML = data[player];
     });
 
