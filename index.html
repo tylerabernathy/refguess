@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./chart.css">
+        <script src="./index.js" defer></script>
+        <title>RefGuess</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>RefGuess</h1>
+            <p class="subheading">A Baseball Reference guessing game.</p>
+            <div class="chart" id="chartDiv">
+            </div>
+            <div class="action">
+                <input type="text" placeholder="Enter your guess" id="guessBox">
+                <button id="guessButton" onclick="guess()">Guess</button>
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+</html>
