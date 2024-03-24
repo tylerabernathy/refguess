@@ -67,3 +67,6 @@ h1 {
     min-width: 600px;
     width: auto;
 }
+.chart a {
+    pointer-events: none;
+}
