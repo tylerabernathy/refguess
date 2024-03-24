@@ -40,16 +40,16 @@ h1 {
     border-radius: 4px;
     margin-right: 10px;
 }
-#guessButton {
+button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #2a5fc4;
     border: none;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
-#guessButton:hover {
+button:hover {
     background-color: #0056b3;
 }
 #result {
@@ -61,7 +61,7 @@ h1 {
     margin: 20px;
     max-width: 100%;
     padding: 0 20px;
-    background-color: #FFF;
+    background-color: #fff;
 }
 .chart {
     min-width: 600px;
@@ -69,4 +69,7 @@ h1 {
 }
 .chart a {
     pointer-events: none;
+}
+#retryButton {
+    visibility: hidden;
 }
