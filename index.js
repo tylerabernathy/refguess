@@ -16,9 +16,9 @@ function giveUp() {
 }
 
 function gameOver() {
-    document.getElementById("guessBox").style.visibility = "hidden";
-    document.getElementById("guessButton").style.visibility = "hidden";
-    document.getElementById("giveUpButton").style.visibility = "hidden";
+    document.getElementById("guessBox").remove();
+    document.getElementById("guessButton").remove();
+    document.getElementById("giveUpButton").remove();
     document.getElementById("retryButton").style.visibility = "visible";
 }
 
